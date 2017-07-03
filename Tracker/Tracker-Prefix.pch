@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  Tracker
+//
+//  Created by Jack Guo on 9/5/16.
+//  Copyright © 2016 InPsi Inc. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 (I randomly decided it) and later."
+#endif
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
